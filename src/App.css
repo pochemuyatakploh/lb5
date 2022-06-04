@@ -38,15 +38,19 @@
 }
 .header {
   grid-area : hx;
+  background:rgb(146, 91, 91);
 }
 .nav{
   grid-area: nx;
+  background:rgb(91, 97, 146);
 }
 .middle{
   grid-area: mx;
+  background:rgb(91, 117, 146);
 }
 .banner{
   grid-area: bx;
+  background:rgb(146, 91, 134);
 }
 
 .app-wrapper{

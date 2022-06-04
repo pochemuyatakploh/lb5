@@ -52,11 +52,20 @@
   grid-area: bx;
   background:rgb(146, 91, 134);
 }
-
+.footer{
+  grid-area: fx;
+  background:rgb(91, 146, 109);
+}
+.under-header{
+  grid-area : uhx;
+  background:rgb(230, 144, 144);
+}
 .app-wrapper{
   display: grid;
-  grid-template-areas : "hx hx hx"
-  "nx mx bx";
-  grid-template-rows : 5fr 150fr;
+  grid-template-areas : 
+  "hx hx hx"
+  "uhx uhx uhx"
+  "nx mx bx" "fx fx fx";
+  grid-template-rows : 5fr 2fr 25fr 2fr;
   grid-template-columns : 2fr 10fr 2fr;
 }
